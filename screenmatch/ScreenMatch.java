@@ -16,7 +16,7 @@ public class ScreenMatch {
                 Fue lanzada en:
                 """ + fechaDeLanzamiento;
         System.out.println(sinopsis);
-        System.out.println();
+
 
 
     }

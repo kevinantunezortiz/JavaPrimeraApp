@@ -13,7 +13,7 @@ public class AppBanco {
                 Tipo de Cuenta: %s
                 Saldo disponible: %.2f """, nombreCliente, tipoCuenta, saldoDisponible));
         int opcion = 0;
-        cicloBanco:
+
         while (opcion != 9) {
             System.out.println("""
                     Escribe el número de la opción deseada
@@ -47,7 +47,7 @@ public class AppBanco {
                     break;
                 case 9:
                     System.out.println("Finalizando el Programa. Muchas Gracias por Usar Nuestros Servicios");
-                    break cicloBanco;
+                    break;
                 default:
                     System.out.println("opcion desconocida vuelva a intentar");
                     break;
